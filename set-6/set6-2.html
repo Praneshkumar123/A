@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                margin: 0px;
+                background-image: url(wolf.jpeg);background-size: 100% 100%;
+                
+            }
+            .block1{
+                width: 100%;
+                height: 725px;
+            }
+            .block2{
+                width: 40%;
+                height: 420px;
+                background-color: white;
+                float: left;
+                margin: 120px 480px;
+                border-radius: 5px;
+            }
+            #t1{
+                border: none;
+                width: 80%;
+            }
+            #l1{
+              color: red;  
+            }
+            .left-padding{
+                padding-left: 40px;
+                padding-right: 40px;
+            }
+            #font{
+                color: rgb(156, 152, 152);
+                font-size: 15px;
+            }
+            #box{
+                width: 35%;
+                height: 30px;
+                margin: 20px 170px;
+                border: none;
+                background-color: palevioletred;
+                color: white;
+            }
+          
+        </style>
+    </head>
+    <body>
+        <div class="block1">
+            <div class="block2">
+                <h1 align="center"> Contact Us</h1>
+                <div class="left-padding"> 
+                <p id="font"> NAME </p>
+                <input id="t1" type="text">
+                <hr size="2px" color="red" width="100%">
+                <p id="font"> EMAIL </p>
+                <input id="t1" type="email">
+                <hr size="2px" style="color: rgb(156, 152, 152);" width="100%">
+                <p id="font"> MESSAGE </p>
+                <textarea id="t1" width="60%"> </textarea>
+                <hr size="2px" style="color: rgb(156, 152, 152);" width="100%">
+                </div>
+                <button id="box"> Send Your Message </button>
+            </div>
+        </div>
+    </body>
+</html>
